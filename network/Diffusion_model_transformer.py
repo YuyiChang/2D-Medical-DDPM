@@ -7,7 +7,10 @@ import torch as th
 import torch.nn as nn
 import torch.nn.functional as F
 # from nnFormer import *
-from network.SwinUnetr import *
+# from network.SwinUnetr import *
+# from network.SwinUnetr import SwinTransformerBlock
+# from monai.networks.nets.swin
+from monai.networks.nets.swin_unetr import SwinTransformerBlock
 from network.util_network import (
     checkpoint,
     conv_nd,
